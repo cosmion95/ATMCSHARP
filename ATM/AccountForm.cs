@@ -39,5 +39,13 @@ namespace ATM
             this.Hide();
             ex.Show();
         }
+
+        private void transferLabel_Click(object sender, EventArgs e)
+        {
+            //deschid fereastra de transfer
+            TransferForm ex = new TransferForm(cont);
+            this.Hide();
+            ex.Show();
+        }
     }
 }

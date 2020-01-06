@@ -21,7 +21,8 @@ namespace ATM
         {
             InitializeComponent();
             _conn.Open();
-        }
+        
+    }
 
         private void loginButton_Click(object sender, EventArgs e)
         {

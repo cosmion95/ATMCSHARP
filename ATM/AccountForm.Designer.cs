@@ -92,6 +92,7 @@
             this.transferLabel.TabIndex = 5;
             this.transferLabel.Text = "TRANSFERA";
             this.transferLabel.UseVisualStyleBackColor = true;
+            this.transferLabel.Click += new System.EventHandler(this.transferLabel_Click);
             // 
             // backButon
             // 
